@@ -1,0 +1,243 @@
+{
+   "intents":[
+      {
+         "tag":"greeting",
+         "patterns":[
+            "Hi there",
+            "How are you",
+            "Is anyone there?",
+            "Hey",
+            "Hola",
+            "Hello",
+            "Good day"
+         ],
+         "responses":[
+            "Hello, thanks for asking",
+            "Good to see you again",
+            "Hi there, how can I help?"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"goodbye",
+         "patterns":[
+            "Bye",
+            "See you later",
+            "Goodbye",
+            "Nice chatting to you, bye",
+            "Till next time"
+         ],
+         "responses":[
+            "See you!",
+            "Have a nice day",
+            "Bye! Come back again soon."
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"thanks",
+         "patterns":[
+            "Thanks",
+            "Thank you",
+            "That's helpful",
+            "Awesome, thanks",
+            "Thanks for helping me"
+         ],
+         "responses":[
+            "Happy to help!",
+            "Any time!",
+            "My pleasure"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"noanswer",
+         "patterns":[
+
+         ],
+         "responses":[
+            "Sorry, can't understand you",
+            "Please give me more info",
+            "Not sure I understand",
+            "That may be beyond my abilities."
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"options",
+         "patterns":[
+            "How you could help me?",
+            "What you can do?",
+            "What help you provide?",
+            "How you can be helpful?",
+            "What support is offered"
+         ],
+         "responses":[
+            "I am your assistant to guide you through products, stores and customer support of XYZ Foods Pvt. Ltd.",
+            "You may ask me regarding products, stores and order support of XYZ Foods Pvt. Ltd."
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"products",
+         "patterns":[
+            "Which are the products that XYZ Foods sells?",
+            "What is the range of products in the company?",
+            "Tell me regarding types of products XYZ Foods serves.",
+            "List out the products that your company sells"
+         ],
+         "responses":[
+            "XYZ foods serves you with potato chips with 3 flavours and soft drinks with 2 flavours.",
+            "Here's a list of range of products: Potato chips(3 flavours) and Soft drinks(2 flavours)."
+         ],
+         "context":[
+            ""
+         ]
+      },
+      { 
+         "tag":"chips_flavours",
+         "patterns":[
+            "Which are the flavours in the potato chips category?",
+            "What is the range of flavouring in chips?",
+            "Tell me regarding types of flavours that XYZ Foods serves in chips.",
+            "List out the flavours of chips that your company sells"
+         ],
+         "responses":[
+            "XYZ foods serves you with potato chips with 3 flavours: Tomato, Onion and Chilli.",
+            "Here's a list flavours of chips that we serve: 1)Tomato 2)Onion 3)Chilli."
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"drinks_flavours",
+         "patterns":[
+            "Which are the flavours in the soft drinks category?",
+            "What is the range of flavouring in drinks?",
+            "Tell me regarding types of flavours that XYZ Foods serves in cold drinks",
+            "List out the flavours of soft drinks that your company sells."
+         ],
+         "responses":[
+            "XYZ foods serves you with soft drinks of 2 flavours: Cola and Orange.",
+            "Here's a list flavours of cold drinks that we serve: 1)Cola 2)Orange."
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"chips_price",
+         "patterns":[
+            "What is the price of each sachet of chips?",
+            "What is the pricing of onion flavour in chips?",
+            "What is the rate of single pack of chips?",
+            "What is the cost of single packet of chips?",
+            "Tell me regarding price of tomato flavour of chips that XYZ Foods serves",
+            "What is the price of one sachet of chilli flavoured chips?"
+         ],
+         "responses":[
+            "Each Sachet of chips of 40 grams net weight costs 10 rupees for each flavour.",
+            "All flavours of chips cost 10 rupees per packet with net weight 40 grams."
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"chips_quantity",
+         "patterns":[
+            "What is the quantity in each sachet of chips?",
+            "What is the net weight of each onion flavoured sachet?",
+            "What is the weight in grams of single pack of chips?",
+            "Tell me regarding quantity per packet of tomato flavour of chips that XYZ Foods serves",
+            "What is the net quantity in grams of one sachet of chilli flavoured chips?"
+         ],
+         "responses":[
+            "Each Sachet of chips has 40 grams net weight and costs 10 rupees for each flavour.",
+            "All flavours of chips have 40 grams net weight per packet which costs 10 rupees."
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"drinks_price",
+         "patterns":[
+            "What is the price of each bottle of soft drink?",
+            "What is the pricing of orange flavour in cold drinks?",
+            "What is the rate of 500ml of drinks?",
+            "What is the cost of one bottle of drinks?",
+            "Tell me regarding price of cola flavour of cold drinks that XYZ Foods serves",
+            "What is the price of one bottle of soft drink?"
+         ],
+         "responses":[
+            "Each bottle of cold drinks of 500ml net volume costs 40 rupees for each flavour.",
+            "All flavours of soft drinks cost 40 rupees per bottle with net quantity 500ml."
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"drinks_quantity",
+         "patterns":[
+            "What is the quantity in each bottle of soft drink?",
+            "What is the net quantity of each orange flavoured cold drink bottle?",
+            "What is the quantity in mililitres of single bottle of drinks?",
+            "Tell me regarding quantity per bottle of cola flavour of cold drink that XYZ Foods serves.",
+            "What is the net quantity in one packed soft drink?"
+         ],
+         "responses":[
+           "Each bottle of cold drink have 500ml net volume which costs 40 rupees for each flavour.",
+           "All flavours of soft drinks are available in bottles with net quantity 500ml pricing 40 rupees each."
+         ],
+         "context":[
+            ""
+         ]
+      },
+
+      {
+         "tag":"stores",
+         "patterns":[
+            "Where are the stores of XYZ Foods Pvt. Ltd. located?",
+            "What are the locations of stores?",
+            "Provide me with location of stores of XYZ foods.",
+            "In which cities are the stores located?"
+         ],
+         "responses":[
+            "XYZ Foods has 3 stores located in Mumbai, Bengaluru and Pune." ,
+            "Currently, XYZ foods has 3 stores residing in Mumbai, Bengaluru and Pune."
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"order",
+         "patterns":[
+            "Where can I buy the products of XYZ foods?",
+            "How can I order chips at home?",
+            "How can I buy cold drinks at my location?",
+            "Where do I buy products from online?",
+            "Where do I find your products on web?"
+         ],
+         "responses":[
+            "The official website XYZ Foods is www.XYZfoods123.com. You can order our products on this website."
+         ],
+         "context":[
+            ""
+         ]
+      }
+   ]
+}
